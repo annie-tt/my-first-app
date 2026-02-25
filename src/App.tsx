@@ -5,10 +5,10 @@ function App() {
     <div className="container">
       {/* Ảnh đại diện */}
       <img 
-        src="https://via.placeholder.com/150" 
-        alt="Avatar" 
-        className="avatar" 
-      />
+  src="/me.jpg" 
+  alt="Annie Avatar" 
+  className="avatar" 
+/>
       
       {/* Thông tin cá nhân */}
       <h1>Annie's Space</h1>
