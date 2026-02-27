@@ -8,26 +8,12 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* Annie đã làm phần này rất tốt rồi! */
 .container {
   text-align: center;
   padding: 40px 20px;
   max-width: 400px;
-  width: 100%;
-}
-
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 4px solid white;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.links {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  margin: 0 auto; /* Đảm bảo căn giữa trên mọi thiết bị */
 }
 
 .link-card {
@@ -37,11 +23,12 @@ body {
   text-decoration: none;
   color: #333;
   font-weight: 600;
-  transition: transform 0.2s;
+  transition: all 0.3s ease; /* Làm hiệu ứng mượt mà hơn */
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: block; /* Ép thẻ 'a' chiếm hết chiều ngang */
 }
 
 .link-card:hover {
-  transform: translateY(-3px);
-  background: #fafafa;
+  transform: translateY(-5px); /* Nhích lên cao hơn một chút */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Đổ bóng sâu hơn khi hover */
 }
